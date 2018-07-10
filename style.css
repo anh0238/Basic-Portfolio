@@ -1,0 +1,176 @@
+/* CSS Stylesheet for Basic Portfolio Assignment */
+
+body {
+    background-color: #fdf6f0;
+    margin-bottom: 100px;
+}
+
+.header {
+    height: 120px;
+    background-color: #e8dce5;
+    width: 100%;
+    border-bottom: 5px solid #eeeeee;
+    margin: 0px;
+}
+
+.logo {
+    background-color: #816f61;
+    width: 300px;
+    height: 120px;
+    float: left;
+    margin-left: 140px;
+}
+.my-name {
+    clear: both;
+    overflow: auto;
+    color: #eeeeee;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.nav {
+    padding-top: 40px;
+    padding-right: 140px;
+    height: 60px;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#e8dce5;
+}
+
+li {
+    float: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    text-decoration: none; /* Remove underline text decoration from menu items. Currently overridden by browser's User Agent Stylesheet */
+}
+
+li a {
+    display: block;
+    color: #816f61;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.content {
+    background-color: #f9f9f9;
+    margin-top: 40px;
+    margin-left: 140px;
+    margin-right: 140px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    border-style: solid;
+    border-width: 5px;
+    color: #eeeeee;
+    overflow: auto;
+}
+
+.my-image {
+    float: left;
+    margin: 10px;
+}
+
+p {
+    font-family: sans-serif;
+    color: #505050;
+    font-size: 16px;
+}
+
+.about-me {
+    padding: 10px;
+}
+
+.footer {
+    width: 100%;
+    height: 70px;
+    background-color: #816f61;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: 10px solid #e8dce5;  
+}
+
+.footer-text {
+    color: #eeeeee;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.heading {
+    color: #816f61;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #eeeeee;
+}
+
+label {
+    color: #816f61;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+input, textarea {
+    color: #505050;
+    font-family: sans-serif;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #eeeeee;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    display: block;
+}
+
+textarea {
+    resize: vertical; 
+} 
+
+form {
+    padding-bottom: 10px;
+}
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #eeeeee;
+    float: left;
+}
+
+.gallery::after {
+    clear: both;
+    display: table;
+}
+
+.gallery:hover {
+    border: 1px solid #eeeeee;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    background-color: #816f61;
+    padding: 10px;
+    text-align: center;
+    color: #eeeeee;
+    font-family: 'Courier New', Courier, monospace;
+    height: 40px;
+}
