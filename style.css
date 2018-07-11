@@ -162,8 +162,8 @@ form {
 }
 
 .gallery img {
-    width: 100%;
-    height: auto;
+    width: 275px;
+    height: 205px;
 }
 
 .desc {
